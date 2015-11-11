@@ -90,14 +90,6 @@
 "    python_slow_sync                       Can be set to 0 for slow machines
 "
 
-" For version 5.x: Clear all syntax items
-" For versions greater than 6.x: Quit when a syntax file was already loaded
-if version < 600
-  syntax clear
-elseif exists("b:current_syntax")
-  finish
-endif
-
 "
 " Commands
 "
